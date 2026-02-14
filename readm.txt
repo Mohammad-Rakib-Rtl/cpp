@@ -1,0 +1,32 @@
+5️⃣ Your correct learning order (WRITE THIS)
+Day 1–5
+
+FreeCodeCamp C++ basics
+
+Day 6
+
+STL basics:
+
+vector
+
+sort
+
+map
+
+pair
+
+Day 7
+
+Solve 2–3 easy problems
+
+Day 8
+
+Start Udemy DSA
+
+That’s it.
+
+6️⃣ Important senior rule (remember this forever)
+
+You don’t “finish C++” before DSA.
+
+You learn C++ WHILE doing DSA.
