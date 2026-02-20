@@ -3,17 +3,16 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
+#include <iomanip>
 
 using namespace std;
 
-int main()
-{
-    // comment for docs
-    /*
-    this 
-    is a multiline comment
-    */
+int main() {
+
+
+
+
+
 
     return 0;
 }
-
