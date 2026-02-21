@@ -38,10 +38,10 @@ int main() {
         cout << "Guess: ";
         cin >> iGuess;
  
-        // if (iGuess == iGuessNum) {
-            
+        if (iGuess == iGuessNum) {
+            cout << "You got it!!!!";
 
-        // }
+        }
 
     }
 
