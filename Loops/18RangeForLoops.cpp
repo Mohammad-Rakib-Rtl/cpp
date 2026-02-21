@@ -31,11 +31,20 @@ int main() {
 
     */
 
+    int iTemperatures[] = {12, 11, 28, 29, 18, 19};
+    int iTotalNum = 0;
+    double dSizeConverter = sizeof(iTemperatures) / sizeof(int);
+
+    for (int iTemp: iTemperatures)
+        
+        iTotalNum += iTemp;
+        
+        // cout << iTemp << endl;
+
+    // cout << sizeof(iTemperatures) << endl;
+    // cout << sizeof(long long) << endl;
+    cout << iTotalNum / dSizeConverter << endl;
     
-    
-
-
-
 
 
     return 0;
