@@ -32,9 +32,9 @@ int main() {
 
     for (int x = 1; x <= iUserInput; x++){
         
-        for (int y = 1; y <= x; y++) {
+        for (int y = 0; y < x; y++)
             cout << "*";
-        }
+        
         cout << endl;  
     }
 
