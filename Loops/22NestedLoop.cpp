@@ -31,10 +31,10 @@ int main() {
     cin >> iUserInput;
 
     for (int x = 1; x <= iUserInput; x++){
-        
         for (int y = 0; y < x; y++)
             cout << "*";
         
+        // cout << "*";
         cout << endl;  
     }
 

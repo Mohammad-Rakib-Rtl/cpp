@@ -7,25 +7,33 @@
 
 using namespace std;
 
-// int iIntegers(int a, int b){
-//     if (a > b) 
+int iIntegers(int a, int b){
 
-// }
+    int c;
+    if (a > b) c = a; 
+    else c = b;
+
+    // return (a > b) ? a : b;
+    return c;
+
+}
 
 
 
 int main() {
 
 
-    int a, b;
-    cin >> a >> b;
 
-    if (a > b ) {
-        cout << a;
-    }
+    // if (a > b) {
+    //     cout << a;
+    // } else {
+    //     cout << b;
+    // }
 
+    int x = iIntegers(2, -2);
+    cout << x << endl;
 
-
+    cout << sizeof(double);
 
     return 0;
 }
