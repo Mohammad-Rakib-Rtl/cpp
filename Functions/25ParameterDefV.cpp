@@ -8,7 +8,7 @@
 using namespace std;
 
 
-double calculateTax(double income, double taxRate = .2) {
+double calculateTax(double income, double expense, double taxRate = .2) {
     return income * taxRate;
 
 }
@@ -16,7 +16,7 @@ double calculateTax(double income, double taxRate = .2) {
 
 int main() {
 
-    double tax = calculateTax(10'000);
+    double tax = calculateTax(10'000, .3);
     cout << tax;
 
     return 0;
