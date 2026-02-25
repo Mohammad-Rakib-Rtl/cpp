@@ -1,14 +1,10 @@
+#include "greet.hpp"
 #include <iostream>
-#include <cmath>
-#include <string>
-#include <cstdlib>
-#include <ctime>
-#include <iomanip>
 
-using namespace std;
+namespace messaging {
 
+void greet(std::string name) {
+    std::cout << "Hello " << name << std::endl;
+}
 
-// Function Definition
-void greet(string name){
-    cout << "Hello " << name;
 }

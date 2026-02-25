@@ -1,21 +1,21 @@
-#include <iostream>
-#include <cmath>
-#include <string>
-#include <cstdlib>
-#include <ctime>
-#include <iomanip>
+// #include <iostream>
+// #include <cmath>
+// #include <string>
+// #include <cstdlib>
+// #include <ctime>
+// #include <iomanip>
 
-#include "utils/greet.hpp"
+// #include "utils/greet.hpp"
 
-using namespace std;
+// using namespace std;
 
 
 
-int main() {
+// int main() {
 
-    greet("Mosh");
+//     greet("Mosh");
 
-    return 0;
-}
+//     return 0;
+// }
 
 
