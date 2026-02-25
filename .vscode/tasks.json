@@ -4,13 +4,20 @@
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
             "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            // "args": [
+            //     "-fdiagnostics-color=always",
+            //     "-g",
+            //     "${file}",
+            //     "-o",
+            //     "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            // ],
             "args": [
-                "-fdiagnostics-color=always",
-                "-g",
                 "${file}",
+                "utils/greet.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
+
             "options": {
                 "cwd": "${fileDirname}"
             },
