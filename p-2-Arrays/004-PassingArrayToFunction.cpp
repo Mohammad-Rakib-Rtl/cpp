@@ -20,6 +20,8 @@ int main() {
     // printNumbers(numbers, size(numbers));
     printNumbers(numbers, size(numbers));
 
+    cout << size(numbers) << endl;
+
 
     return 0;
 }
