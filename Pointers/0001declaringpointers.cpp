@@ -26,13 +26,14 @@ int main() {
 
     int x = 10;
     int y = 20;
-    
+
     int* ptr = &x;
     *ptr *= 2;
     cout << "----------------" << endl;
     cout << "X section" << endl;
     cout << "----------------" << endl;
     cout << x << endl;
+    cout << "&x: " <<  &x << endl;
     cout << ptr << endl;
     cout << *ptr << endl;
 
@@ -40,6 +41,9 @@ int main() {
     cout << "Y section" << endl;
     cout << "----------------" << endl;
     ptr = &y;
+    cout << *ptr << endl;
+    cout << ptr << endl;
+    cout << "before multiply for y" ;
     *ptr *= 3;
     cout << y << endl;
     cout << ptr << endl;
