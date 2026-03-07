@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iomanip>
+#include <memory>
 
 using namespace std;
 
