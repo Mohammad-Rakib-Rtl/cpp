@@ -22,7 +22,7 @@ int main() {
 
     bool bResult = first == second;
 
-    cout << bResult << endl;
+    cout << boolalpha << bResult << endl;
 
     //logical operators
     int age = 20;
